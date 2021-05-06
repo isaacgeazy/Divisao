@@ -17,7 +17,7 @@ namespace Divisao
             
             resu = num / den;
 
-            if (den > 0) {
+            if (den != 0) {
           
           
              Console.WriteLine($"{num} dividido por {den} é {resu}");
